@@ -5,8 +5,28 @@
     width: 100vw;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 20px;
 }
 
+.wrapper button {
+    background-color: #717ce0;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.wrapper button:hover {
+    background-color: #5a5f9e;
+}
+
+.wrapper button.clicked {
+    background-color: #07234d; /* New color for clicked state */
+}
 .accordian {
     width: 500px;
 }
